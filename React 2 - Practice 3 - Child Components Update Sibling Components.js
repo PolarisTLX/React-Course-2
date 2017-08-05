@@ -16,29 +16,6 @@
 //One of the very first things that you learned about components is that they should only have one job.
 
 
-/*  note from further lesson brought back here where it makes more sense
-
-Separate Container Components From Presentational Components
-
-This is a programming pattern where,
-the container component does the work of figuring out what to display. 
-The presentational component does the work of actually displaying it.
-If a component does a significant amount of work in both areas,
-then that's a sign that you should use this pattern!
-
-
-a presentational component will always get rendered by a container component.
- if a component has to have state, make calculations based on props, or manage any other complex logic, then that component shouldn't also have to render HTML-like JSX.
-Instead of rendering HTML-like JSX, the component should render another component. It should be that component's job to render HTML-like JSX.
-
-a presentational component will always get rendered by a container component.
-
-If a file exists outside of the current folder, like one over, then the import will look more like this:
-import { GuineaPigs } from '../components/GuineaPigs';
-
-A  ..  for each level of folder it must go back, and each folder needs to be named ../components/importedfile.js
-
-*/
 
 // the essential new concept for this lesson: you will have one stateless component display information, and a different stateless component offer the ability to change that information.
 
